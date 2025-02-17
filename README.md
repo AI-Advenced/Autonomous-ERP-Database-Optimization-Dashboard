@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+# AI-Driven Database Performance Management
+## Autonomous ERP Database Optimization Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Create a monitoring dashboard for automated SQL Server database optimization focused on JD Edwards ERP, with real-time performance metrics, AI-driven recommendations, and self-healing capabilities.
+        
+Main dashboard showing key metrics like CPU/memory usage, query performance, backup status, and optimization recommendations
+        
+AI engine to analyze performance patterns and automatically implement optimizations for indexes, statistics, and configuration
+        
+Self-healing capabilities to detect and resolve common database issues without manual intervention
+        
+Historical trending and forecasting of database health and resource utilization
+        
+Detailed drill-down views for investigating specific performance problems
 
-Currently, two official plugins are available:
+![image](https://github.com/user-attachments/assets/c5004492-3577-44bb-8aa0-87d1559d3360)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
